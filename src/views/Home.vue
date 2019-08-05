@@ -5,46 +5,33 @@
 
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-     
-<!-- HEADER -->
-<header class="intro">
-  <div class="intro-body">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-offset-2 text-center">
-          <span class="intro-heading">Benjamin Holsinger</span>
-          <p> </p>
-          <p class="intro-text">Front End Web Developer
-          </p>
-          <a href="#about" class="btn btn-default page-scroll">Find Out More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-     
 
-      <!-- ABOUT SECTION -->
-     
-
-      
-
-      <!-- CONTACT SECTION -->
-      <section id="contact">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-12 col-offset-2 text-center">
-              <h2 class="section-heading">Contact</h2>
-              <p class="contWriting">Contact info below: </p>
-              <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-                target="_blank">Linkedin</a>
-              <p></p>
-              <a href="https://github.com/bholsinger09" target="_blank"> github</a>
-
+      <!-- HEADER -->
+      <header class="intro">
+        <div class="intro-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-offset-2 text-center">
+                <span class="intro-heading">Benjamin Holsinger</span>
+                <p> </p>
+                <p class="intro-text">Front End Web Developer
+                </p>
+                <a href="#about" class="btn btn-default page-scroll">Find Out More</a>
+              </div>
             </div>
           </div>
+        </div>
+      </header>
+      </Portfolio>
+      </Contact>
 
-      </section>
+
+
+
+
+
+
+
 
       <!-- Portfolio Modals -->
 
@@ -57,11 +44,15 @@
 <script>
   // @ is an alias to /src
   import HelloWorld from "@/components/HelloWorld.vue";
+  import Portfolio from "@/components/Portfolio.vue";
+  import Contact from "@/components/Contact.vue"
 
   export default {
     name: "home",
     components: {
-      HelloWorld
+      HelloWorld,
+      Portfolio,
+      Contact
     }
   };
 </script>
